@@ -1,0 +1,10 @@
+name = input()
+price_for_kilo = int(input())
+weight = int(input())
+money = int(input())
+
+print("Чек")
+print(f"{name} - {weight}кг - {price_for_kilo}руб/кг")
+print(f"Итого: {weight * price_for_kilo}руб")
+print(f"Внесено: {money}руб")
+print(f"Сдача: {money - weight * price_for_kilo}руб")
